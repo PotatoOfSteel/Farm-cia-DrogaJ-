@@ -6,13 +6,38 @@
     border: 3px black solid;
     border-radius: 15px;
     width: 69%;
-    margin-left: 14%;
+    margin-left: 13%;
     padding: 10px;
 }
 
 .miguel {
     display: none;
 }
+
+/*Lista Responsiva*/
+.submenu{
+    display:block;
+    display:none
+}
+
+a:link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+
+}
+.lado{
+    display:flex
+}
+
+.sublista:focus-within{
+    .submenu{display: block}
+}
+/*Fim da Lista Responsiva*/
 
 body{
     background-color:C5D3E8;
@@ -90,8 +115,9 @@ div.relative{
     border-radius: 15px;
     background-color: beige;
     color:black;
-    margin-left: 8%;
-    width:75%;
+    margin-left:8%;
+    margin-right:  10%;
+    width:70%;
     margin-bottom: 20px;
     
 }
@@ -115,7 +141,6 @@ img{
     padding-right: 30px;
     font-size: 30px;
     text-align: center;
-    list-style: none;
 }
 
 .image{
@@ -161,7 +186,7 @@ a{
     color:black;
     width: 75%;
     margin-bottom: 20px;
-    margin-left: 8%;
+    margin-left: 7%;
     background-color:antiquewhite;
 }
 img{
@@ -172,7 +197,8 @@ img{
 div.preço{
     border: 2px solid black;
     margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 8%;
+    width: 80%;
     background-color: white;
     
 }

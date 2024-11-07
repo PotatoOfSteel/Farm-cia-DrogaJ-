@@ -1,0 +1,28 @@
+li{
+    display: inline;
+}
+
+.lado{
+    display:flex
+}
+
+.submenu{
+    display:block;
+    display:none
+}
+
+.sublista:focus-within{
+    .submenu{display: block}
+}
+
+
+a:link{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+
+}
