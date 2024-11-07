@@ -43,8 +43,7 @@ body{
     color: black;
     width: 80%;
     font-size: 4vh;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-left: 9%;
     margin-bottom: 20px;
 }
 
@@ -69,8 +68,7 @@ div.relative{
     background-color: FFF8DE;
     color: black;
     width: 50%;
-    font-size: 50px;
-    margin-left: 20%;
+    font-size: 40px;
 }
 
 .Remedios2{
@@ -78,7 +76,7 @@ div.relative{
     background-color: FFF8DE;
     color: black;
     width: 20%;
-    font-size: 50px;
+    font-size: 40px;
   
 }
 
@@ -159,15 +157,14 @@ a{
 
 .home{
     padding: 20px;
-    text-align: justify;
+    text-align: center;
     border: 3px black solid;
     border-radius: 15px;
     background-color: D0E8C5;
     color:black;
-    margin-left: 10%;
-    margin-right: 10%;
     width: 75%;
     margin-bottom: 20px;
+    margin-left: 8%;
 }
 img{
     width: 80%;
