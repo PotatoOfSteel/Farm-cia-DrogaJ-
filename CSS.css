@@ -37,7 +37,7 @@ body{
     text-align: center;
     border: 3px black solid;
     border-radius: 15px;
-    background-color: FFF8DE;
+    background-color:antiquewhite;
     color: black;
     width: 80%;
     font-size: 4vh;
@@ -88,7 +88,7 @@ div.relative{
     text-align: justify;
     border: 3px black solid;
     border-radius: 15px;
-    background-color: FFF8DE;
+    background-color: beige;
     color:black;
     margin-left: 8%;
     width:75%;
@@ -162,6 +162,7 @@ a{
     width: 75%;
     margin-bottom: 20px;
     margin-left: 8%;
+    background-color:antiquewhite;
 }
 img{
     width: 80%;
@@ -184,10 +185,16 @@ div.preçotexto{
     text-align: center;
 }
 
+div.tabela{
+    margin-bottom: 5%;
+    margin-left: 3%;
+    background-color: b;
+}
+
 
 
 body{
-    background-color:C5D3E8;
+    background-color:lightblue;
 }
 @media screen and (min-width: 1024px) {
     body {
@@ -205,7 +212,7 @@ div.preço{
     border: 2px solid rgb(0, 0, 0);
     margin-right: 0%;
     margin-left: 10%;
-    background-color: white;
+    background-color:beige;
     text-align: center;
     width: 19%;
    
@@ -249,11 +256,11 @@ div.tabela{
 
 
 .TamanhoSubtitulo{
-    font-size: 22px;
+    font-size: 40px;
 }
 
 .TamanhoTexto{
-    font-size: 12px;
+    font-size: 30px;
     padding-left: 1%;
     padding-right: 1%;
 }
