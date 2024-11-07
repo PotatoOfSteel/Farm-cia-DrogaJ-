@@ -1,0 +1,283 @@
+.titulo{
+    text-align: center;
+    font-size: 5vh;
+    background-color: lightcyan;
+    color: black;
+    border: 3px black solid;
+    border-radius: 15px;
+    width: 69%;
+    margin-left: 15%;
+    margin-right: 15%;
+    padding: 10px;
+}
+
+.miguel {
+    display: none;
+}
+
+.Descricao{
+    padding: 5px;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 15px;
+    background-color: #FFF8DE;
+    color: black;
+    width: 78%;
+    font-size: 3vh;
+    margin-right: 10%;
+    margin-left:10%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+.Subtitulo{ 
+    padding: 5px;
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 15px;
+    background-color: FFF8DE;
+    color: black;
+    width: 80%;
+    font-size: 4vh;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+}
+
+.Subtitulo2{
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 15px;
+    background-color: FFF8DE;
+    color: black;
+    width: 70%;
+    font-size: 50px;
+    margin-left: 15%;
+}
+
+div.relative{
+    position: relative;
+    right:20%
+}
+
+.Remedios{
+    text-align: left;
+    background-color: FFF8DE;
+    color: black;
+    width: 50%;
+    font-size: 50px;
+    margin-left: 20%;
+}
+
+.Remedios2{
+    text-align: left;
+    background-color: FFF8DE;
+    color: black;
+    width: 20%;
+    font-size: 50px;
+  
+}
+
+.display{
+    display: flex;
+}
+
+
+.LojaEstrutura{
+    padding: 20px;
+    text-align: justify;
+    border: 3px black solid;
+    border-radius: 15px;
+    background-color: FFF8DE;
+    color:black;
+    margin-left: 10%;
+    margin-right: 10%;
+    width:75%;
+    margin-bottom: 20px;
+    
+}
+
+.TamanhoSubtitulo{
+    font-size: 40px;
+}
+
+.TamanhoTexto{
+    font-size: 40px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+img{
+    
+    width: 200px;
+
+}
+.LISTA{
+    padding-right: 30px;
+    font-size: 30px;
+    text-align: center;
+    list-style: none;
+}
+
+.image{
+    text-align: center;
+}
+
+a:hover{
+    text-decoration: none;
+    background-color: burlywood;
+}
+
+a:focus{
+    text-decoration: none;
+    
+}
+
+a:link{
+    text-decoration: none;
+    
+}
+
+a:active{
+    text-decoration: none;
+    
+}
+
+a:visited{
+    text-decoration: none;
+    color: black;
+
+}
+
+a{
+    font-size: 3vh;
+}
+
+.home{
+    padding: 20px;
+    text-align: justify;
+    border: 3px black solid;
+    border-radius: 15px;
+    background-color: D0E8C5;
+    color:black;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 75%;
+    margin-bottom: 20px;
+}
+img{
+    width: 80%;
+    
+
+}
+div.preço{
+    border: 2px solid black;
+    margin-right: 10%;
+    margin-left: 10%;
+    background-color: white;
+    
+}
+div.preçotexto{
+    bottom: 0;
+    width: 100%;
+    background-color: aquamarine;
+    font-size: 2vh;
+    left: 0;
+    text-align: center;
+}
+
+
+
+
+body{
+    background-color:C5D3E8;
+}
+@media screen and (min-width: 1024px) {
+    body {
+      background-color: C5D3E8;
+    }
+
+
+    .miguel{
+        display: none;
+    }
+
+/*Preços*/
+
+div.preço{
+    border: 2px solid rgb(0, 0, 0);
+    margin-right: 0%;
+    margin-left: 10%;
+    background-color: white;
+    text-align: center;
+    width: 19%;
+   
+   
+}
+
+div.preçotexto{
+    width: 100%;
+    background-color: aquamarine;
+    font-size: 2vh;
+    text-align: center;
+    height: 10%;
+    
+}
+
+img {
+    width: 100%;
+    height: 90%;
+    
+}
+
+div.tabela{
+    display: flex;
+    margin-bottom: 5%;
+}
+
+/*Produtos*/
+
+.LojaEstrutura{
+    text-align: center;
+    border: 3px black solid;
+    border-radius: 15px;
+    background-color: FFF8DE;
+    color:black;
+    width: 50%;
+    margin-right: 10%;
+    margin-left: 10%;
+    padding-bottom: 10%;
+    
+}
+
+
+.TamanhoSubtitulo{
+    font-size: 22px;
+}
+
+.TamanhoTexto{
+    font-size: 12px;
+    padding-left: 1%;
+    padding-right: 1%;
+}
+
+}
+
+
+/*O Pequenininho*/
+
+@media  screen and (max-width: 375px) {
+    .am {
+        display: none;
+      
+    }
+
+    .miguel{
+        border: 3px black solid;
+        border-radius: 15px;
+        background-color: beige;
+        text-align: center;
+        display: block;
+
+    }
+}
