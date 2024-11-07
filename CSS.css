@@ -6,8 +6,7 @@
     border: 3px black solid;
     border-radius: 15px;
     width: 69%;
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 14%;
     padding: 10px;
 }
 
@@ -28,8 +27,7 @@ body{
     color: black;
     width: 78%;
     font-size: 3vh;
-    margin-right: 10%;
-    margin-left:10%;
+    margin-left: 10%;
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -92,8 +90,7 @@ div.relative{
     border-radius: 15px;
     background-color: FFF8DE;
     color:black;
-    margin-left: 10%;
-    margin-right: 10%;
+    margin-left: 8%;
     width:75%;
     margin-bottom: 20px;
     
