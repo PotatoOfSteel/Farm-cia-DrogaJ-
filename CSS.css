@@ -16,6 +16,7 @@
 
 /*Lista Responsiva*/
 .submenu{
+    padding-right: 70px;
     display:block;
     display:none
 }
@@ -39,7 +40,7 @@ li{
 }
 
 .sublista:focus-within{
-    
+    text-align: center;
     .submenu{display: block}
     
 }
@@ -184,15 +185,15 @@ a{
 }
 
 .home{
-    padding: 20px;
     text-align: center;
     border: 3px black solid;
     border-radius: 15px;
     background-color: D0E8C5;
     color:black;
-    width: 75%;
+    width: 80%;
     margin-bottom: 20px;
-    margin-left: 7%;
+    margin-left: 10%;
+    margin-right: 10%;
     background-color:antiquewhite;
 }
 img{
